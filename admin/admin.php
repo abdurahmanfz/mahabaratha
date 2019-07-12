@@ -25,11 +25,13 @@
       <table width="100%">
         <tr>
           <td>
-            <div class="main-menu">
-              <p class="heading">
-                Lihat Data Barang
-              </p>  
-            </div>
+            <a href="barang.php" style="text-decoration: none; color: black;">
+              <div class="main-menu">
+                <p class="heading">
+                  Lihat Data Barang
+                </p>  
+              </div>
+            </a>
           </td>
           <td>
             <div class="main-menu">

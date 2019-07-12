@@ -38,7 +38,7 @@
 
               <tr class="f-tr">
               <td class="f-td">
-                <input type="submit" value="Kirim" class="f-button">
+                <input type="submit" value="Kirim" class="f-button block">
               </td>
               </tr>
             </table>

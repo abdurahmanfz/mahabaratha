@@ -4,21 +4,17 @@
 </style>
 
 <?php
+  include "../config/connection.php";
   session_start();
 
   if (isset($_SESSION['status']) && $_SESSION['status'] == 'login') {
 ?>
   <div class="header">
-    <table width="100%">
-      <tr>
-        <td>
-          <p style="font-weight: 600; color: white; margin: 10px 0;">Mahabaratha</p>
-        </td>
-        <td style="text-align: right;">
-          <a class="text-btn" href="../logout.php">Logout</a>
-        </td>
-      </tr>
-    </table>
+    <!-- <p style="font-weight: 600; color: white; margin: 10px 0;">Mahabaratha
+      </p> -->
+    <p style="font-weight: 600; color: white; margin: 10px 0; text-align: right">
+      <a class="text-btn" href="../logout.php">Logout</a>
+    </p>
   </div>
 
 <?php
