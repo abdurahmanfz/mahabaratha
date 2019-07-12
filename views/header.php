@@ -6,7 +6,23 @@
 <?php
   session_start();
 
-  if ($_SESSION['status'] != 'login') {
+  if (isset($_SESSION['status']) && $_SESSION['status'] == 'login') {
+?>
+  <div class="header">
+    <table width="100%">
+      <tr>
+        <td>
+          <p style="font-weight: 600; color: white; margin: 10px 0;">Mahabaratha</p>
+        </td>
+        <td style="text-align: right;">
+          <a class="text-btn" href="../logout.php">Logout</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<?php
+  } else {
 ?>
   <div class="header">
     <p style="font-weight: 600; color: white; margin: 10px 0;">
@@ -16,17 +32,6 @@
     </p>
     <!-- <a href="../logout.php">Logout</a> -->
   </div>
-<?php
-  } else {
-    echo "Hore";
-
-?>
-
-  <div class="header">
-    <p style="font-weight: 600; color: white; margin: 10px 0;">Mahabaratha</p>
-    <a href="../logout.php">Logout</a>
-  </div>
-
 <?php
   }
 ?>
