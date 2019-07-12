@@ -15,7 +15,7 @@
       $_SESSION['name'] = $data['display_name'];
       $_SESSION['status'] = "login";
     }
-    header("location:admin/index.php");
+    header("location:admin/admin.php");
   } else {
     echo "<script>alert('Username atau Password salah')</script>";
     header("location:index.php");

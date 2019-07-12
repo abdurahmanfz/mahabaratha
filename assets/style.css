@@ -12,6 +12,23 @@ html {
   --warning-color: #FF8B39;
 }
 
+.header {
+  box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
+  top: 0; width: 100%;
+  left: 0;
+  position: fixed;
+
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
 .container{
   width: 85%;
   max-width: 850px;
