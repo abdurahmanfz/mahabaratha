@@ -47,7 +47,7 @@
               </a>
             </td>
             <td class="ftd aksi">
-              <a class="text-btn" href="delete_barang.php?stock_id=<?php echo $data['stock_id'];?>">
+              <a class="text-btn" href="delete_controler.php?stock_id=<?php echo $data['stock_id'];?>">
                 Hapus
               </a>
             </td>

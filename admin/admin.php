@@ -8,15 +8,6 @@
       include "../views/header.php";
 
       if (isset($_SESSION['status']) && $_SESSION['status'] == 'login') {
-        # code...
-        // echo "<br>";
-        // echo $_SESSION['username'];
-        // echo "<br>";
-        // echo $_SESSION['role'];
-        // echo "<br>";
-        // echo $_SESSION['name'];
-        // echo "<br>";
-        // echo $_SESSION['status'];
     ?>
 
     <div>
