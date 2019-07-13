@@ -115,23 +115,23 @@ html {
   width: 100%;
 }
 
-table { 
+.ftable { 
   width: 820px; 
   border-collapse: collapse; 
   margin:50px auto;
 }
 
-tr:nth-of-type(odd) { 
+.ftr:nth-of-type(odd) { 
 	background: #eee; 
 }
 
-th { 
-	background: var(--primary-color); 
+.fth { 
+	background: var(--secondary-color); 
 	color: white; 
 	font-weight: bold; 
 }
 
-td, th{ 
+.ftd, .fth{ 
 	padding: 10px; 
 	border: 1px solid #ccc; 
 	text-align: left; 
